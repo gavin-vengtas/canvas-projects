@@ -1,0 +1,33 @@
+:root{
+    --canvas-width:87vw;
+    --canvas-height:87vh;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  .btnGroup {
+    display: inline-block;
+    padding-top: 5px;
+  }
+  
+  #controller{
+    width:500px;
+    margin: 0;
+    padding:0;
+    display: inline-block;
+   max-width: 100%;
+    padding-bottom:10px;
+  }
+  
+  canvas { 
+    width:var(--canvas-width);
+    height:var(--canvas-height);
+    max-width:var(--canvas-height);
+    max-height:var(--canvas-width);
+
+    display:block;
+  }
+  
